@@ -74,7 +74,7 @@ FontAwesomeAsset::register($this);
                                             . Html::submitButton(
                                                     Yii::t('menu', 'Logout ({username})', [
                                                         'username' => Yii::$app->user->identity->username
-                                                    ]).'<i class="fa fa-sign-out"></i>', ['class' => 'btn btn-link logout']
+                                                    ]).' <i class="fa fa-sign-out-alt"></i>', ['class' => 'btn btn-link logout']
                                             )
                                             . Html::endForm()
                                             . '</li>';
@@ -104,7 +104,7 @@ FontAwesomeAsset::register($this);
                 <div class="back-to-top-page">
                     <a class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
                 </div>
-                <p class="text"><a href="<?php echo Url::to(['/site/about']); ?>">CC CarS | 2020</a></p>
+                <p class="text"><a href="<?php echo Url::to(['/site/about']); ?>">SN CarS | 2020</a></p>
             </div>
         </footer>
 

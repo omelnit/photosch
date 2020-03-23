@@ -17,10 +17,11 @@ class AppAsset extends AssetBundle
     ];
     public $js = [
         'js/scripts.js',
+//        '//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js',
     ];
     public $depends = [
-	'rmrevin\yii\fontawesome\CdnFreeAssetBundle',
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap\BootstrapPluginAsset',
+	'rmrevin\yii\fontawesome\CdnFreeAssetBundle',
     ];
 }
